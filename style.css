@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+select {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.ayah {
+  background: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ayah p {
+  margin: 5px 0;
+}
+
+.arabic {
+  font-size: 24px;
+  text-align: right;
+  font-family: "Scheherazade New", serif;
+  direction: rtl;
+}
+
+.translation {
+  font-size: 16px;
+  color: #444;
+}
+
+button {
+  margin-top: 8px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #256b45;
+}
